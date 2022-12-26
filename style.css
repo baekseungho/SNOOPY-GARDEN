@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+li{
+  list-style:none;
+}
+.gnb-list a{
+  text-decoration: none;
+  color:white;
+  font-size: 25px;
+}
+.gnb-list a:hover{
+  color:gray;
+  transition:all 800ms ease-in-out;
+}
+.visually-hidden{
+  display:none;
+}
+nav{
+  background-color:skyblue;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  width:80px;
+  height:80px;
+  margin:10px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 50%;
+}
+.gnb-list{
+  display:flex;
+}
+.gnb-item{
+  font-weight: 800;
+  margin-right: 40px;
+}
+.background{
+  background-image: url(./Image/스누피배경.jpeg);
+  height:700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+.back-text{
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  height:600px;
+  text-align: center;
+}
+.back-title{
+  font-size: 48px;
+}
+.back-content{
+  font-size:20px;
+  font-weight: 800;
+}
+.front-btn{
+  width:90px;
+  height:50px;
+  font-size:20px;
+  border-radius: 8px;
+  border:none;
+}
+.post-box{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+}
+.post-card{
+  background-color:rgb(183, 227, 255);
+  text-align: center;
+  border-radius: 8px;
+  width:600px;
+  margin:15px;
+  padding:20px;
+  position:relative;
+  bottom:80px;
+}
+.post-card-txt{
+  margin-top:20px;
+}
+.scroll-box{
+  background-color:rgb(183, 227, 255);
+  height:1200px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.snp-box{
+  width:800px;
+  height:600px;
+  background-color: white;
+  background-image: url(./Image/pngegg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-left: 10px;
+}
+.snp-box1{
+  width:800px;
+  height:600px;
+  background-color: white;
+  background-image: url(./Image/스누피2.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-right: 10px;
+}
+.footer-list a{
+  text-decoration: none;
+  font-size:48px;
+  color :white;
+}
+.global-footer{
+  background-color:skyblue;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px 45px;
+}
+.global-footer h3{
+  color:white;
+}
+.footer-list{
+  display:flex;
+}
+.footer-item{
+  margin-right: 17px;
+}
+.footer-item a:hover{
+  color:gray;
+  transition:all 800ms ease-in-out;
+}
+.up{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color:rgb(67, 67, 206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+}
+.up i{
+  font-size:30px;
+  color:rgb(183, 227, 255);
+}
+.mv-menu{
+  height:250px;
+  width:250px;
+  position:fixed;
+  top:150px;
+  right:40px;
+  background-color: white;
+  border-radius: 10px;
+  border:2px solid gray;
+  box-shadow: 5px 5px 5px gray;
+  padding:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.smenu{
+  height:40px;
+  margin:15px;
+}
+.smenu a{
+  text-decoration: none;
+  color: gray;
+}
+.smenu a:hover{
+  font-size:20px;
+  font-weight: 800;
+}
